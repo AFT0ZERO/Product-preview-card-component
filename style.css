@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EAE2;
+    color: #6C7289;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.main-card {
+    border-radius:10px ;
+    height: 450px;  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.left-card {
+
+    img {
+        width: 300px;
+        height: 450px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    /* background-image: url(images/image-product-desktop.jpg); */
+
+    /* background-size: cover; */
+}
+
+.r-card {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    /* font-family: "Fraunces", serif; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+}
+
+.r-card h1 {
+    font-size: 32px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: #1C232B;
+    width: 236px;
+    height: 96px;
+    margin-top: 18px;
+
+
+}
+
+.card-content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7289;
+    line-height: 22px;
+    width: 237px;
+    height: 92px;
+    margin-top: 35px;
+}
+
+.card-price {
+    margin-top: 25px;
+    display: flex;
+}
+
+.card-now-price {
+    font-family: "Fraunces", serif;
+    color: #3D8168;
+    font-size: 32px;
+    font-weight: 700;
+}
+.card-last-price
+{
+    font-family: "Fraunces", serif;
+    font-size: 13px;
+    font-weight: 500;
+    align-self: center;
+    padding-left: 19px;
+}
+button
+{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 25px;
+    background-color: #3D8168;
+    color: white;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    border:none;
+    font-size: 14px;
+    font-weight: 700;
+  img{
+    margin-right: 12px;
+    
+  }
+    
+}
